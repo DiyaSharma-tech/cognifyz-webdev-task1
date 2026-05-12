@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!-- Starting of HTML document -->
+<html>
+
+<head>
+
+    <!-- Title shown on browser tab -->
+    <title>User Form</title>
+
+</head>
+
+<body>
+
+    <!-- Main heading of form -->
+    <h1>User Information Form</h1>
+
+    <!-- Form starts -->
+    <!-- action="/submit" sends data to submit route -->
+    <!-- method="POST" sends data securely -->
+    <form action="/submit" method="POST">
+
+        <!-- Label for name input -->
+        <label>Name:</label>
+
+        <!-- Input box for name -->
+        <input type="text" name="name" required>
+
+        <!-- Line breaks -->
+        <br><br>
+
+        <!-- Label for email input -->
+        <label>Email:</label>
+
+        <!-- Input box for email -->
+        <input type="email" name="email" required>
+
+        <!-- Line breaks -->
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+
+</html>
